@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MINI MONSTER MAKER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+  <div id="left-panel"> <!-- panel with the mini monster  -->
+    <canvas id="monsterCanvas" width="760" height="760"></canvas>
+  </div>
+
+  <div id="right-panel">
+    <div id="tabs"></div>
+    <div id="options"></div>
+
+    <div id="bottom-controls">
+      <button id="move-left" 
+        style="width:66px;height:66px;
+              background:url('assets/icons/icon-arrow.png');
+              border:none;cursor:pointer;transform:rotate(-90deg);">
+      </button>
+
+      <button id="move-up" 
+        style="width:66px;height:66px;
+              background:url('assets/icons/icon-arrow.png');
+              border:none;cursor:pointer;transform:rotate(0deg);">
+      </button>
+
+      <button id="move-down" 
+        style="width:66px;height:66px;
+              background:url('assets/icons/icon-arrow.png');
+              border:none;cursor:pointer;transform:rotate(180deg);">
+      </button>
+
+      <button id="move-right" 
+        style="width:66px;height:66px;
+              background:url('assets/icons/icon-arrow.png');
+              border:none;cursor:pointer;transform:rotate(90deg);">
+      </button>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+/*padding should be multiples of 6*/
+
+body {
+  margin: 0;
+  font-family: monospace;
+  background: #140b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* scrollbar style */
+#options {
+  overflow-y: auto;
+  scrollbar-width: auto;
+  scrollbar-color: #dfecdb transparent;
+}
+
+/* webkit */
+#options::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+  border-radius: 0;
+}
+
+#options::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.color-label {
+  display: block;
+  width: 160px; 
+  margin: 10px auto 5px auto;
+}
+
+#options input[type="color"] { /* format colour input */
+  display: block;
+  margin: 0 auto 15px auto;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#app {
+  display: flex;
+  width: 90%;
+  height: 90%;
+}
+
+#left-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#tabs {
+  display: flex;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.tab {
+  padding: 6px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.tab.active {
+  background: #5d4573;
+}
+
+#options {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+  gap: 6px;
+  overflow-y: auto;
+  padding: 6px;
+}
+
+.option-btn {
+  width: 126px;
+  height: 90px;
+  background: #140b1c;
+  border: none;
+  cursor: pointer;
+}
+
+#bottom-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 6px;
+}
