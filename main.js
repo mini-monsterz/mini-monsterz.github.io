@@ -263,10 +263,10 @@ function fetchFolderImages(folder) {
 
   const actualFolder = `assets/${folderMap[currentTab]}`;
   const images = {
-    heads: makeImageList("head", 23),
+    heads: makeImageList("head", 25),
     arms: makeImageList("arms", 15),
     legs: makeImageList("legs", 15),
-    eyes: makeImageList("eye", 21),
+    eyes: makeImageList("eye", 26),
     mouths: makeImageList("mouth", 22),
     noses: makeImageList("nose", 20)
   };
