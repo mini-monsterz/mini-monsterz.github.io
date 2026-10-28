@@ -1,4 +1,4 @@
 # mini-monsterz.github.io
 
-# i had to make this to make the website work but there really isnt anything to read
-# enjoy monsters
+# This is just a fun, simple website made in about a week.
+# enjoy making your monsters
